@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>مجلة المدرسة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/img/logo.png" alt="شعار" class="logo me-2"/>
+      <span class="fw-bold">مجلة مدرسة النعمان بن بشير</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">عن المدرسة</a></li>
+        <li class="nav-item"><a class="nav-link" href="news.html">أخبار المدرسة</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">مكتبة الصور</a></li>
+        <li class="nav-item"><a class="nav-link" href="honor.html">لوحة الشرف</a></li>
+        <li class="nav-item"><a class="nav-link" href="teacher.html">معلم الشهر</a></li>
+        <li class="nav-item"><a class="nav-link" href="creativity.html">ركن الإبداع</a></li>
+        <li class="nav-item"><a class="nav-link" href="issues.html">أعداد المجلة</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero text-center text-white d-flex align-items-center">
+  <div class="container py-5">
+    <img src="assets/img/logo.png" class="hero-logo mb-3" alt="شعار المدرسة"/>
+    <h1 class="display-5 fw-bold">مجلة مدرسة النعمان بن بشير</h1>
+    <p class="lead opacity-75">منصة شهرية لعرض إنجازات المدرسة وطلابها ومعلميها</p>
+    <a href="issues.html" class="btn btn-warning btn-lg fw-bold mt-2">تصفّح الأعداد</a>
+  </div>
+</header>
+<section class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-4"><div class="card h-100 shadow-sm"><div class="card-body"><h5 class="card-title">أبرز الأخبار</h5><p class="card-text">اطّلع على آخر فعاليات المدرسة وإنجازاتها.</p><a href="news.html" class="btn btn-outline-primary">اذهب للأخبار</a></div></div></div>
+    <div class="col-md-4"><div class="card h-100 shadow-sm"><div class="card-body"><h5 class="card-title">مكتبة الصور</h5><p class="card-text">ألبومات لقطات من الأنشطة والبرامج.</p><a href="gallery.html" class="btn btn-outline-primary">تصفّح الصور</a></div></div></div>
+    <div class="col-md-4"><div class="card h-100 shadow-sm"><div class="card-body"><h5 class="card-title">لوحة الشرف</h5><p class="card-text">تكريم المتميزين من طلابنا.</p><a href="honor.html" class="btn btn-outline-primary">اعرف المزيد</a></div></div></div>
+  </div>
+</section>
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="h4 mb-4">العدد الأخير</h2>
+    <div id="latest-issue" class="row g-4 align-items-center"></div>
+  </div>
+</section>
+
+<footer class="py-4 mt-5 bg-light border-top">
+  <div class="container text-center small">
+    <div class="mb-2">فكر… إبداع… تميز</div>
+    <div>© <span id="year"></span> مجلة مدرسة النعمان بن بشير للتعليم الأساسي (5-7)</div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body></html>
